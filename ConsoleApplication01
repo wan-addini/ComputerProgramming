@@ -1,0 +1,12 @@
+/ /ConsoleApplication1.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "University : Universiti Teknikal Malaysia, Melaka\n";
+    cout << "Faculty : FKE\n";
+    cout << "Programme : BEKC\n";
+    cout << "\nMy name is Sara Binti Abdul Azeez. I am from Sarawak\n";
+    return 0;
+}
