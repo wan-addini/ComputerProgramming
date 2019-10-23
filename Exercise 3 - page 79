@@ -1,0 +1,31 @@
+// Exercise 79 no.3
+#include <iostream>
+using namespace std;
+
+double travel (double,double);
+
+const double gallon = 0.264179;
+
+int main()
+{
+  double km, litre;
+ 
+  cout << "Enter the number of kilometers travelled : " << endl;
+  cin >> km;
+  cout << "Enter the number of liters of petrol : " << endl;
+  cin >> litre;
+  cout << "Number of km per gallon the car travelled is " << travel(km, litre);
+ 
+  return 0;
+}
+
+double travel(double km, double litre)
+{
+ 
+   double petrol, distance;
+   
+   petrol = litre * gallon;
+   distance = km/petrol;
+   
+   return distance;
+}
