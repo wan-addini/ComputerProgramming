@@ -1,0 +1,29 @@
+// Exercise page 79 no.2
+#include <iostream>
+using namespace std;
+
+void swap(int,int);
+
+int main()
+{
+    int x = 79, y = 10;
+    cout << "The original value of x : " << x << endl;
+    cout << "The original value of y : " << y << endl;
+    swap(x,y);
+    //cout << "The swap value of x in main() : " << x << endl;
+    //cout << "The swap value of y in main() : " << y << endl;
+   
+    return 0;
+}
+
+//define the function
+void swap(int x, int y)
+{  
+   int temp;
+   temp = x;
+   x = y;
+   y = temp;
+   
+   cout << "The swap value of x in main() : " << x << endl;
+   cout << "The swap value of y in main() : " << y << endl;
+}
